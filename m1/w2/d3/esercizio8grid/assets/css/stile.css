@@ -117,6 +117,8 @@ main {
     box-shadow: 0 3px 3px #444;
     padding: 2em 1em;
     margin-bottom:1.5em ;
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
     @media screen and (min-width:700px) {
         main {
@@ -128,7 +130,9 @@ section {
     background-color: #e3e3e3;
     padding: 2.5em 1em 1em;
     margin-bottom: 2em;
-    position: relative;
+    position: sticky;
+    top: 250px;
+    z-index: 5;
 }
 section h2 {
     text-align: center;
@@ -147,6 +151,8 @@ section h2 {
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
+article{padding-right: 25px;
+}
 h1 {
     font-size: 2.6rem;
     font-weight: bold;
@@ -303,7 +309,6 @@ footer {
 footer a {
     color: fuchsia;
 }
-
 
 @media screen and (min-width:1200px) {
     header, main, footer {
