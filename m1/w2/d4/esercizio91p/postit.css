@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.top {
+    margin: 200px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #666 ;
+}
+.postIt {
+    font-family:'Indie Flower';;
+    padding: 55px;
+    margin-bottom: 30px;
+    margin: 0;
+    text-align: center;
+    box-shadow: 2px 2px 3px;
+    font-weight: 900;
+}   
+.postIt1{
+    rotate: -5deg;
+    background-color: rgb(255, 255, 204);
+  background-image: linear-gradient(rgb(255,255,204) 0%, rgb(231,231,174) 75%, rgb(189,189,161) 93%);
+    margin: 20px;
+}
+.postIt1:hover{
+    transform: scale(1.25);
+    rotate: 0deg;
+}
+.postIt5{
+    rotate: -5deg;
+    background-color: rgb(255, 255, 204);
+    background-image: linear-gradient(rgb(255,255,204) 0%, rgb(231,231,174) 75%, rgb(189,189,161) 93%);
+    margin: 20px;
+}
+.postIt5:hover{
+    transform: scale(1.25);
+    rotate: 0deg;
+}
+.postIt7{
+    rotate: -7deg;
+    background-color: rgb(255, 255, 204);
+    background-image: linear-gradient(rgb(255,255,204) 0%, rgb(231,231,174) 75%, rgb(189,189,161) 93%);
+    margin: 20px;
+}
+.postIt7:hover{
+    transform: scale(1.25);
+    rotate: 0deg;
+}
+.postIt2{
+rotate: 4deg;
+ background-color: rgb(204, 255, 204);
+  background-image: linear-gradient(rgb(204,255,204) 0%, rgb(184,219,184) 75%, rgb(159,181,159) 93%);
+transform: rotate(4deg);
+margin: 20px;
+}
+.postIt2:hover{
+    transform: scale(1.25);
+    rotate: 0deg;
+}
+.postIt4{
+    rotate: 8deg;
+    background-color: rgb(204, 255, 204);
+    background-image: linear-gradient(rgb(204,255,204) 0%, rgb(184,219,184) 75%, rgb(159,181,159) 93%);
+    transform: rotate(4deg);
+    margin: 20px;
+}
+.postIt4:hover{
+    transform: scale(1.25);
+    rotate: 0deg;
+}
+.postIt8{
+    rotate: 2deg;
+    background-color: rgb(204, 255, 204);
+    background-image: linear-gradient(rgb(204,255,204) 0%, rgb(184,219,184) 75%, rgb(159,181,159) 93%);
+    transform: rotate(4deg);
+    margin: 20px;
+}
+.postIt8:hover{
+    transform: scale(1.25);
+    rotate: 0deg;
+}
+.postIt3{
+    rotate: -9deg;
+    background-color: rgb(204, 204, 255);
+  background-image: linear-gradient(rgb(204,204,255) 0%, rgb(176,176,204) 75%, rgb(140,140,156) 93%);
+    margin: 20px;
+
+}.postIt3:hover{
+    transform: scale(1.25);
+    rotate: 0deg;
+}
+   
+.postIt6{
+    rotate: -7deg;
+    background-color: rgb(204, 204, 255);
+    background-image: linear-gradient(rgb(204,204,255) 0%, rgb(176,176,204) 75%, rgb(140,140,156) 93%);
+    margin: 20px;
+}
+.postIt6:hover{
+    transform: scale(1.25);
+    rotate: 0deg;
+}

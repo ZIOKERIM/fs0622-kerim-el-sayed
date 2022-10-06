@@ -1,0 +1,42 @@
+*{
+    padding: 0; margin: 0;
+}
+
+header {
+    background-color: cadetblue;
+    text-align: center; 
+    border-bottom:2px solid blue;
+    padding: 30px;
+    
+}
+
+header h1{ 
+    
+    color: white;
+    
+}
+header span{
+    background-color: white;
+    color: cadetblue;
+
+}
+header p{ 
+    margin-top: 20px;
+
+}
+h2{
+    color: cadetblue;
+    text-align: center;
+    font-size: 30px;
+
+
+
+
+
+
+     
+
+
+
+
+}

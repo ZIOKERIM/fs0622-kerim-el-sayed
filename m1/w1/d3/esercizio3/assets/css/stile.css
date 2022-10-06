@@ -1,0 +1,105 @@
+/* IMPOSTAZIONI GENERALI */
+*{
+    padding: 0; margin: 0;
+}
+
+/* HEADER */
+header {
+    background-color: cadetblue;
+    text-align: center; 
+    border-bottom:2px solid blue;
+    padding: 30px;
+    
+}
+
+header h1{ 
+    text-transform: uppercase;
+    color: white;
+    
+}
+header span{
+    background-color: white;
+    color: cadetblue;
+
+}
+header h2{ 
+    margin-top: 20px;
+
+}
+/* MAIN */
+main{ 
+    padding: 30px;
+
+}
+
+main h2{
+    color: cadetblue;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+p mark{
+    background-color: cadetblue;
+    color: white;
+    
+}
+b{
+    font-weight: 800;
+}
+div{
+    padding: 20px;
+}
+    figure{
+        justify-content: center;
+    text-align: center;
+    }
+    a{
+        color: red;
+    
+    }
+blockquote{
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 30px;
+      
+}
+strong{ 
+    color: dodgerblue;
+}
+ main section{
+    padding-bottom: 40px;
+    border-bottom: 1px dashed grey;
+
+  }
+  hr{
+    display: none;
+  }
+  div h3{
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  ul{
+    padding-left: 40px;
+  }
+  section h2{
+    margin-top: 10px;
+  }
+  dl dd{
+    padding-left: 40px;
+  }
+
+/* FOOTER */
+footer {
+    background-color: dimgray;
+    text-align: center;
+    border-top: 5px solid blue ;
+    color: white;
+    padding: 20px;
+}
+small{
+    color: grey;
+}
+kbd{
+    color: yellow;
+}

@@ -1,0 +1,37 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    border: 1px solid black;
+    width: 20%;
+    text-align: left;
+    font-family: 'Bree Serif';
+    padding: 5px;
+}
+.parole i{
+  position:absolute;
+  top: 0;
+  color: transparent;
+  animation-name: titolo;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  margin-left: 5px;
+}
+
+  .parole i:nth-child(1){
+    animation-delay: 2s;
+  }
+  .parole i:nth-child(2) {
+    animation-delay: 4s;
+  }
+ .parole i:nth-child(3) {
+    animation-delay: 6s;
+  }
+  @keyframes titolo {
+    0% {color: transparent; top: 0px}
+    25% {color: black; top: 38px}
+    50% {color: transparent; top: 38px}
+  }
