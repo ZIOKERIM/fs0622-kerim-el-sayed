@@ -1,0 +1,192 @@
+body{
+    font-family: Fira Sans, Helvetica, Arial, sans-serif;
+}
+#menu {
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.5em;
+    background-color: white;
+    box-shadow: 0px 5px 8px gray;
+    position: sticky;
+    top: 0;
+}
+header nav {
+    height: 0;
+    flex-basis: 100%;
+    transition: ease 1s;
+    overflow: hidden;
+    padding-left: 2em;
+}
+input[type="checkbox"]:checked + nav {
+    display: block;
+    height: 200px;
+}
+#intro{
+    text-align: center;
+}
+.inizio{
+    width: auto;
+    padding: 30px;
+    text-align: left;
+    height: 200px;
+    background-image: url("/assets/images/banner.jpg");
+}
+.inizio h1{
+    font-size: 30px;
+    padding: 30px;
+    color: white;
+}
+    .inizio p{
+        color: white;
+    }
+.button1 {
+    background-image: linear-gradient(90deg, #6cc1e2 0, #392f7a);
+    padding: 5px 5px;
+    font-size: 1.9rem;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+#developer{
+    margin : 20px;
+    text-align: center;
+}
+.developer1 h2{
+    font-size: 30px; 
+    margin: 20px;
+}
+.lavoro h3{
+    font-size:23px;
+    margin: 20px;
+}
+.lni {
+    color: #e42424; 
+    font-size: 20px;
+}
+span .lni {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+#iscrizione{
+    text-align: center;
+    color: white;
+    background-color: #0c0633;
+    padding: 80px 20px;
+    background-color: #0c0633;
+    color: white;
+}
+#iscrizione h2{
+    font-size: 30px;
+    margin: 30px;
+}
+#iscrizione p{
+    font-size: 19px;
+    margin: 30px;
+}
+.button2{
+    background-image: linear-gradient(90deg, #6cc1e2 0, #392f7a);
+    padding: 5px 5px;
+    font-size: 1.9rem;
+    color: white;
+    text-decoration: none;
+}
+#notebook{
+    text-align: center;
+ }
+.futuro{
+    text-align: center;
+}
+.futuro1{
+    text-align: center;
+}
+.futuro1 h3{
+    font-size: 20px;
+    margin: 20px;
+}
+footer{
+padding: 20px;
+border-top: 1px solid #eee;
+background-color: rgb(238, 238, 238);
+}
+footer div {
+        margin-bottom: 1.5em;
+    }
+    footer nav ul {
+        margin-left: 0;
+    }
+    footer nav li {
+        list-style-type: none;
+        display: inline-block;
+    }
+    footer h2 {
+        font-size: 2rem;
+        padding-bottom: 1em;
+        line-height: 1;
+    }
+    footer fieldset {
+        display: flex;
+        flex-direction: column;
+    }
+    footer input {
+        font-size: 2rem;
+        padding: 1.2rem 1.5rem;
+        width: 100%;
+    }
+    footer button {
+        width: 100%;
+    }
+    #contatti{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:50px;
+    }
+    fieldset input{
+        margin-bottom: 20px;
+    }
+    .address {
+        text-align: center;
+        margin: 30px;
+        padding: 30px;
+    }
+    
+    main #contatti,#address{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #contatti form input{
+        margin-bottom: 20px;
+        border: 1px solid lightgray;
+        padding: 10px;
+        width: 100%;
+    }
+    #contatti form textarea{
+        border: 1px solid lightgray;
+        padding: 10px;
+        width: 100%;
+    }
+    #contatti form .button4{
+        width: 150px;
+    }
+    #address div{
+        margin-bottom: 10px;
+    }
+    .button4{
+        background-image: linear-gradient(90deg, #6cc1e2 0, #392f7a);
+        padding: 5px 5px;
+        font-size: 1.9rem;
+        color: white;
+        text-decoration: none;
+        float: left;
+    }
